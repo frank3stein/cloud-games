@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[7],{CSmd:function(_,n,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/games",function(){return w("9s11")}])}},[["CSmd",0,1,2]]]);
