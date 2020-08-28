@@ -1,6 +1,8 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import { NextApiRequest, NextApiResponse } from 'next';
 
-export default (req, res) => {
+export default (req: NextApiRequest, res: NextApiResponse) => {
+  const { query } = req;
   res.statusCode = 200
-  res.json({ name: 'John Doe' })
+  res.send(query)
 }

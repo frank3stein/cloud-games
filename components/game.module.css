@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'GeForce-alt';
+    src: url("https://www.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/geforce-bold-alt-webfont.woff2") format("woff2");
+}
+
+.geforce {
+    font-family: "Geforce-alt";
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.imagearticle {
+    position: relative;
+}
+
+.svglink {
+    position: absolute;
+    left: 592px;
+    top: -24px;
+}
+
+.svg {
+    height: 48px;
+    width: 48px;
+}
+
+.svg:hover {
+    fill: red;
+}
+
+.discount-linethrough {
+    text-decoration: line-through;
+}
+
+.discount {
+    color: #a4d007;
+    background: #4c6b22;
+    font-size: 2rem;
+}
+
+.flex {
+    /* display: flex;
+    align-items: flex-start;
+    margin: 0 auto; */
+    display: inline-flex;
+}
+
+.left {
+    text-align: left;
+    padding:  calc((680px - 616px) / 2);
+    padding-top: 0;
+    padding-bottom: 0;
+}
